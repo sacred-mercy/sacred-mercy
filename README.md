@@ -5,8 +5,8 @@ Information Technology Student
 ------------------------------
 
 * 🌍  I'm based in India
-* ✉️  You can contact me at [gauravnegi9634@gmail.com](mailto:gauravnegi9634@gmail.com)
-* 🧠  I'm learning Swing and JavaFX
+* 🫂  
+* 🧠  I'm learning Swing and JavaFX
 * 🤝  I'm open to collaborating on JAVA and Web Development
 
 ### Skills
@@ -31,6 +31,8 @@ Information Technology Student
 <p align="left"> <a href="https://www.twitter.com/GauravSingh9634" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a> <a href="https://www.stackoverflow.com/users/17178989/gaurav-singh" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/stackoverflow.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/gaurav-singh-355174230/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a>  <a href="https://discord.com/users/Gaurav Singh#2056" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /></a>  </p>
 
 ### Badges
+
+<img src="https://komarev.com/ghpvc/?username=sacred-mercy&style=for-the-badge&label=My+Profile+Views" alt="Profile View Count" />
 
 <b>My GitHub Stats</b>
 
