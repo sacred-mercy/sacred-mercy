@@ -5,7 +5,7 @@ Information Technology Student
 ------------------------------
 
 * 🌍  I'm based in India
-* 🧠  I'm currently learning Swing and JavaFX
+* 🧠  I'm currently learning Data Strucuture and Algorithms
 * 🤝  I'm open to collaborating on JAVA and Web Development
 
 ### Skills
