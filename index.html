@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <title data-react-helmet="true">Gaurav Singh&#x27;s Personal Website</title>
+
+  <link data-react-helmet="true" rel="icon" type="image/svg+xml" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;👋&lt;/text&gt;&lt;/svg&gt;">
+  <style>
+    @font-face {
+      font-family: Jost;
+      src: url(https://d185xckpsn8u72.cloudfront.net/jost-700-normal.woff2) format('woff2'), url(https://d185xckpsn8u72.cloudfront.net/jost-700-normal.woff) format('woff');
+      font-weight: 700;
+      font-style: normal;
+      font-stretch: normal;
+      font-display: swap
+    }
+
+    @font-face {
+      font-family: Jost;
+      src: url(https://d185xckpsn8u72.cloudfront.net/jost-700-italic.woff2) format('woff2'), url(https://d185xckpsn8u72.cloudfront.net/jost-700-italic.woff) format('woff');
+      font-weight: 700;
+      font-style: italic;
+      font-stretch: normal;
+      font-display: swap
+    }
+
+    @font-face {
+      font-family: Jost;
+      src: url(https://d185xckpsn8u72.cloudfront.net/jost-400-normal.woff2) format('woff2'), url(https://d185xckpsn8u72.cloudfront.net/jost-400-normal.woff) format('woff');
+      font-weight: 400;
+      font-style: normal;
+      font-stretch: normal;
+      font-display: swap
+    }
+
+    @font-face {
+      font-family: Jost;
+      src: url(https://d185xckpsn8u72.cloudfront.net/jost-400-italic.woff2) format('woff2'), url(https://d185xckpsn8u72.cloudfront.net/jost-400-italic.woff) format('woff');
+      font-weight: 400;
+      font-style: italic;
+      font-stretch: normal;
+      font-display: swap
+    }
+  </style>
+  <style>
+    a,
+    abbr,
+    acronym,
+    address,
+    applet,
+    article,
+    aside,
+    audio,
+    b,
+    big,
+    blockquote,
+    body,
+    canvas,
+    caption,
+    center,
+    cite,
+    code,
+    dd,
+    del,
+    details,
+    dfn,
+    div,
+    dl,
+    dt,
+    em,
+    embed,
+    fieldset,
+    figcaption,
+    figure,
+    footer,
+    form,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    header,
+    hgroup,
+    html,
+    i,
+    iframe,
+    img,
+    ins,
+    kbd,
+    label,
+    legend,
+    li,
+    mark,
+    menu,
+    nav,
+    object,
+    ol,
+    output,
+    p,
+    pre,
+    q,
+    ruby,
+    s,
+    samp,
+    section,
+    small,
+    span,
+    strike,
+    strong,
+    sub,
+    summary,
+    sup,
+    table,
+    tbody,
+    td,
+    tfoot,
+    th,
+    thead,
+    time,
+    tr,
+    tt,
+    u,
+    ul,
+    var,
+    video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline
+    }
+
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+      display: block
+    }
+
+    body {
+      line-height: 1
+    }
+
+    ol,
+    ul {
+      list-style: none
+    }
+
+    blockquote,
+    q {
+      quotes: none
+    }
+
+    blockquote:after,
+    blockquote:before,
+    q:after,
+    q:before {
+      content: '';
+      content: none
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0
+    }
+
+    *,
+    :after,
+    :before {
+      box-sizing: border-box
+    }
+  </style>
+  <style>
+    *,
+    :after,
+    :before {
+      box-sizing: border-box
+    }
+
+    html {
+      font-synthesis: none;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      font-smooth: antialiased;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none !important
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      font-weight: 400;
+      font-display: swap;
+      font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      color: #444;
+      line-height: 1.6;
+      font-size: 1.4rem
+    }
+
+    button {
+      cursor: pointer;
+      padding: 0;
+      background-color: inherit
+    }
+
+    img {
+      width: 100%;
+      height: auto
+    }
+
+    a {
+      text-decoration: none
+    }
+
+    strong {
+      font-weight: 700
+    }
+
+    @media screen and (max-width:640px) {
+      html {
+        font-size: 59%
+      }
+    }
+
+    @media screen and (min-width:768px) {
+      html {
+        font-size: 62.5%
+      }
+    }
+
+    @media screen and (min-width:1024px) {
+      html {
+        font-size: 62.5%
+      }
+    }
+  </style>
+  <style data-styled="true" data-styled-version="5.3.3">
+    /*!sc*/
+    a,
+    abbr,
+    acronym,
+    address,
+    applet,
+    article,
+    aside,
+    audio,
+    b,
+    big,
+    blockquote,
+    body,
+    canvas,
+    caption,
+    center,
+    cite,
+    code,
+    dd,
+    del,
+    details,
+    dfn,
+    div,
+    dl,
+    dt,
+    em,
+    embed,
+    fieldset,
+    figcaption,
+    figure,
+    footer,
+    form,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    header,
+    hgroup,
+    html,
+    i,
+    iframe,
+    img,
+    ins,
+    kbd,
+    label,
+    legend,
+    li,
+    main,
+    mark,
+    menu,
+    nav,
+    object,
+    ol,
+    output,
+    p,
+    pre,
+    q,
+    ruby,
+    s,
+    samp,
+    section,
+    small,
+    span,
+    strike,
+    strong,
+    sub,
+    summary,
+    sup,
+    table,
+    tbody,
+    td,
+    tfoot,
+    th,
+    thead,
+    time,
+    tr,
+    tt,
+    u,
+    ul,
+    var,
+    video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline
+    }
+
+    /*!sc*/
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    main,
+    menu,
+    nav,
+    section {
+      display: block
+    }
+
+    /*!sc*/
+    [hidden] {
+      display: none
+    }
+
+    /*!sc*/
+    body {
+      line-height: 1
+    }
+
+    /*!sc*/
+    menu,
+    ol,
+    ul {
+      list-style: none
+    }
+
+    /*!sc*/
+    blockquote,
+    q {
+      quotes: none
+    }
+
+    /*!sc*/
+    blockquote:after,
+    blockquote:before,
+    q:after,
+    q:before {
+      content: '';
+      content: none
+    }
+
+    /*!sc*/
+    table {
+      border-collapse: collapse;
+      border-spacing: 0
+    }
+
+    /*!sc*/
+    html {
+      -webkit-scrollbar-width: none !important;
+      -moz-scrollbar-width: none !important;
+      -ms-scrollbar-width: none !important;
+      scrollbar-width: none !important;
+      box-sizing: border-box;
+      font-size: 59%
+    }
+
+    /*!sc*/
+    html::-webkit-scrollbar {
+      display: none
+    }
+
+    /*!sc*/
+    *,
+    :after,
+    :before {
+      box-sizing: border-box
+    }
+
+    /*!sc*/
+    body {
+      min-height: 100vh;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      position: relative;
+      font-synthesis: none;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      font-smoothing: antialiased;
+      font-weight: 400;
+      font-display: swap
+    }
+
+    /*!sc*/
+    button {
+      cursor: pointer;
+      padding: 0;
+      background-color: inherit
+    }
+
+    /*!sc*/
+    img {
+      width: 100%;
+      height: auto
+    }
+
+    /*!sc*/
+    a {
+      -webkit-text-decoration: none;
+      text-decoration: none
+    }
+
+    /*!sc*/
+    strong {
+      font-weight: 700
+    }
+
+    /*!sc*/
+    data-styled.g2[id=sc-global-iAouBZ1] {
+      content: "sc-global-iAouBZ1,"
+    }
+
+    /*!sc*/
+    .AYKoV {
+      width: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin: 1.3rem 0 2rem 0
+    }
+
+    /*!sc*/
+    data-styled.g7[id=sc-eCImPb] {
+      content: "AYKoV,"
+    }
+
+    /*!sc*/
+    .bUrLqq {
+      width: 2.6em;
+      border-bottom: 2px solid;
+      border-color: inherit;
+      border-radius: 1px
+    }
+
+    /*!sc*/
+    data-styled.g8[id=sc-jRQBWg] {
+      content: "bUrLqq,"
+    }
+
+    /*!sc*/
+    .cObQur {
+      width: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-align-self: center;
+      -ms-flex-item-align: center;
+      align-self: center
+    }
+
+    /*!sc*/
+    /*!sc*/
+    data-styled.g14[id=sc-kDTinF] {
+      content: "cObQur,"
+    }
+
+    /*!sc*/
+    .bVzuDM {
+      width: 5.06rem;
+      height: 5.06rem;
+      border: 1px solid;
+      margin: .7260000000000001rem;
+      background-color: #fff;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      cursor: pointer;
+      border-radius: 50%;
+      -webkit-text-decoration: none;
+      text-decoration: none;
+      color: inherit;
+      -webkit-transition: .3s;
+      transition: .3s
+    }
+
+    /*!sc*/
+    .bVzuDM svg {
+      height: 2.2rem;
+      fill: #212121
+    }
+
+    /*!sc*/
+    .bVzuDM:hover {
+      opacity: .6
+    }
+
+    /*!sc*/
+    data-styled.g17[id=sc-egiyK] {
+      content: "bVzuDM,"
+    }
+
+    /*!sc*/
+    .fUhYhU {
+      width: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-bottom: 3rem;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-align: center
+    }
+
+    /*!sc*/
+    @media screen and (min-width:1024px) {
+      .fUhYhU {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column
+      }
+    }
+
+    /*!sc*/
+    .fUhYhU img {
+      -webkit-transition: width .3s;
+      transition: width .3s;
+      max-width: 18rem;
+      min-width: 0;
+      -webkit-align-self: center;
+      -ms-flex-item-align: center;
+      align-self: center
+    }
+
+    /*!sc*/
+    @media screen and (min-width:1024px) {
+      .fUhYhU img {
+        max-width: 20rem
+      }
+    }
+
+    /*!sc*/
+    .fUhYhU>:first-child {
+      margin-top: 0 !important;
+      margin-left: 0 !important
+    }
+
+    /*!sc*/
+    .fUhYhU>:last-child {
+      margin-bottom: 0 !important;
+      margin-right: 0 !important
+    }
+
+    /*!sc*/
+    data-styled.g18[id=sc-bqiRlB] {
+      content: "fUhYhU,"
+    }
+
+    /*!sc*/
+    .eOOjhv {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center
+    }
+
+    /*!sc*/
+    data-styled.g19[id=sc-ksdxgE] {
+      content: "eOOjhv,"
+    }
+
+    /*!sc*/
+    .kMmoQC {
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column
+    }
+
+    /*!sc*/
+    .kMmoQC>:first-child {
+      margin-top: 0 !important;
+      margin-left: 0 !important
+    }
+
+    /*!sc*/
+    .kMmoQC>:last-child {
+      margin-bottom: 0 !important;
+      margin-right: 0 !important
+    }
+
+    /*!sc*/
+    data-styled.g20[id=sc-hBUSln] {
+      content: "kMmoQC,"
+    }
+
+    /*!sc*/
+    .MsBdM {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: auto;
+      margin-bottom: auto;
+      width: 95%;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      box-shadow: none;
+      border-radius: .8rem;
+      -webkit-animation: fadeIn 2s ease;
+      animation: fadeIn 2s ease;
+      -webkit-transition: width .3s;
+      transition: width .3s
+    }
+
+    /*!sc*/
+    /*!sc*/
+    @media screen and (min-width:1024px) {
+      .MsBdM {
+        width: auto;
+        width: auto;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column
+      }
+    }
+
+    /*!sc*/
+    @media screen and (min-width:1280px) {
+      .MsBdM {
+        max-width: 60vw
+      }
+    }
+
+    /*!sc*/
+    data-styled.g32[id=sc-cxpSdN] {
+      content: "MsBdM,"
+    }
+
+    /*!sc*/
+    .gIHOSo {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 100%;
+      border-radius: .8rem;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      background: 0 0;
+      padding: 3.5999999999999996rem;
+      padding: 1.0499999999999998rem
+    }
+
+    /*!sc*/
+    @-webkit-keyframes fadeIn {
+      0% {
+        opacity: 0
+      }
+
+      100% {
+        opacity: 1
+      }
+    }
+
+    /*!sc*/
+    @keyframes fadeIn {
+      0% {
+        opacity: 0
+      }
+
+      100% {
+        opacity: 1
+      }
+    }
+
+    /*!sc*/
+    @media screen and (min-width:1024px) {
+      .gIHOSo {
+        width: 100%;
+        border-radius: .8rem
+      }
+    }
+
+    /*!sc*/
+    @media screen and (min-width:1024px) {
+      .gIHOSo {
+        padding: 6rem
+      }
+    }
+
+    /*!sc*/
+    .gIHOSo>:first-child {
+      margin-top: 0 !important;
+      margin-left: 0 !important
+    }
+
+    /*!sc*/
+    .gIHOSo>:last-child {
+      margin-bottom: 0 !important;
+      margin-right: 0 !important
+    }
+
+    /*!sc*/
+    data-styled.g33[id=sc-llYSUQ] {
+      content: "gIHOSo,"
+    }
+
+    /*!sc*/
+    .sqAtr {
+      padding: 5% 2.5%;
+      width: 100%;
+      min-height: 100vh;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEwMTg4M30);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: auto;
+      color: rgba(255, 255, 255, .9);
+      font-family: Jost, -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 400;
+      word-break: normal;
+      word-wrap: normal;
+      -webkit-hyphens: none;
+      -moz-hyphens: none;
+      -ms-hyphens: none;
+      hyphens: none;
+      font-kerning: normal;
+      -moz-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+      -ms-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+      -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+      font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+      font-kerning: normal
+    }
+
+    /*!sc*/
+    @media screen and (min-width:1024px) {
+      .sqAtr {
+        padding: 2.5%
+      }
+    }
+
+    /*!sc*/
+    @media screen and (min-width:768px) {
+      .sqAtr {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center
+      }
+    }
+
+    /*!sc*/
+    .sqAtr * {
+      line-height: 2.97rem
+    }
+
+    /*!sc*/
+    @media screen and (min-width:1024px) {
+      .sqAtr * {
+        line-height: 3.3000000000000003rem
+      }
+    }
+
+    /*!sc*/
+    .sqAtr p {
+      font-size: 1.9800000000000002rem;
+      line-height: 2.97rem
+    }
+
+    /*!sc*/
+    @media screen and (min-width:1024px) {
+      .sqAtr p {
+        font-size: 2.2rem;
+        line-height: 3.3000000000000003rem;
+        max-width: 60rem
+      }
+    }
+
+    /*!sc*/
+    .sqAtr li {
+      font-size: 1.9800000000000002rem
+    }
+
+    /*!sc*/
+    @media screen and (min-width:1024px) {
+      .sqAtr li {
+        font-size: 2.2rem;
+        max-width: 40vw
+      }
+    }
+
+    /*!sc*/
+    .sqAtr h1,
+    .sqAtr h2 {
+      text-rendering: optimizeLegibility;
+      font-family: inherit
+    }
+
+    /*!sc*/
+    @media screen and (min-width:1024px) {
+
+      .sqAtr h1,
+      .sqAtr h2 {
+        max-width: 40vw
+      }
+    }
+
+    /*!sc*/
+    .sqAtr h1 {
+      font-size: 4.455rem;
+      margin-bottom: 1.5rem;
+      line-height: 4.9005rem;
+      font-weight: 700;
+      -webkit-letter-spacing: -.04rem;
+      -moz-letter-spacing: -.04rem;
+      -ms-letter-spacing: -.04rem;
+      letter-spacing: -.04rem
+    }
+
+    /*!sc*/
+    @media screen and (min-width:1024px) {
+      .sqAtr h1 {
+        font-size: 4.95rem;
+        margin-bottom: 1.875rem;
+        line-height: 4.95rem
+      }
+    }
+
+    /*!sc*/
+    .sqAtr h2 {
+      font-size: 2.97rem;
+      margin-bottom: 1.5rem;
+      line-height: 3.4154999999999998rem
+    }
+
+    /*!sc*/
+    @media screen and (min-width:1024px) {
+      .sqAtr h2 {
+        font-size: 3.3000000000000003rem;
+        margin-bottom: 1.875rem;
+        line-height: 3.795rem
+      }
+    }
+
+    /*!sc*/
+    data-styled.g36[id=sc-giYglK] {
+      content: "sqAtr,"
+    }
+
+    /*!sc*/
+  </style>
+  <script>
+    "use strict";
+
+    function pr() {
+      var t, e, n, c, o, a, d, i, p, s, r, w = document.getElementById("ppc"),
+        P = document.getElementById("pp");
+
+      function l(t, e, n, c) {
+        var o = t / 2;
+        return {
+          wPct: e = 1 + ((e = 1 + (e - 1) * (1 - t)) - 1) * (1 - o),
+          topPct: n -= o,
+          leftPct: c *= 1 - (t + o)
+        }
+      }
+      w && P && (t = (c = w.getBoundingClientRect()).width, e = c.height, p = (r = JSON.parse(w.dataset.dim)).a, d = r.b, n = r.c, s = r.d, i = p / (a = p * r.e), c = (o = p * s) / a, c = (o - ((w = t / e) - 1) * a / 2) / (s = a * w), o = o = d * n / (d * r.f), r = (a = t * (i = p / s)) / (n = p / d), s = e * Math.abs(o), p = t * c, i <= 1 && (d = 1 - i, o *= (i = 1) + d * w, c = 0), (p = a - p) < t && (i += (p = t - p) / a, c -= p / t / 2), s = (r = r - e - s) / e, w < 1 && 1 < n && 0 < r && (t * (r = l(s, i, o, c)).wPct / n - e * Math.abs(r.topPct) < e && !(e < t * (r = l(s / 4, i, o, c)).wPct / n - e * Math.abs(r.topPct)) || (i = r.wPct, o = r.topPct, c = r.leftPct)), P.style.width = "".concat(100 * i, "%"), P.style.left = "-".concat(100 * c, "%"), P.style.top = "-".concat(100 * o, "%"))
+    }
+    window.addEventListener("DOMContentLoaded", function() {
+      pr()
+    }), window.addEventListener("resize", function() {
+      pr()
+    })
+  </script>
+</head>
+
+<body>
+  <div class="sc-giYglK sqAtr">
+    <div class="sc-cxpSdN MsBdM">
+      <div class="sc-llYSUQ gIHOSo">
+        <div class="sc-bqiRlB fUhYhU">
+          <div class="sc-hBUSln kMmoQC">
+            <div class="sc-ksdxgE eOOjhv">
+              <h1 class="sc-iCfMLu eehqFj">Gaurav Singh</h1>
+              <div class="sc-eCImPb AYKoV">
+                <div class="sc-jRQBWg bUrLqq"></div>
+              </div>
+            </div>
+            <div class="sc-kDTinF cObQur">
+              <div class="sc-crHmcD jDvJAM"><a href="https://github.com/sacred-mercy/" target="_blank" class="sc-egiyK bVzuDM"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>GitHub icon</title>
+                    <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path>
+                  </svg></a></div>
+              <div class="sc-crHmcD jDvJAM"><a href="/cdn-cgi/l/email-protection#3a5d5b4f485b4c545f5d53030c090e7a5d575b535614595557" target="_blank" class="sc-egiyK bVzuDM"><svg viewBox="0 0 48 48" fill="none">
+                    <title>Email</title>
+                    <path d="M46.652 1.348L45.432.084 1.302 14.12l-.466 3.484L14.33 28.31 40.746 7.254 19.69 33.67l10.706 13.494 3.484-.466 14.036-44.13-1.264-1.22z"></path>
+                  </svg></a></div>
+              <div class="sc-crHmcD jDvJAM"><a href="https://discord.com/users/Gaurav%20Singh#2056" target="_blank" class="sc-egiyK bVzuDM"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24">
+                    <title>Discord icon</title>
+                    <path d="M20.222 0c1.406 0 2.54 1.137 2.607 2.475V24l-2.677-2.273-1.47-1.338-1.604-1.398.67 2.205H3.71c-1.402 0-2.54-1.065-2.54-2.476V2.48C1.17 1.142 2.31.003 3.715.003h16.5L20.222 0zm-6.118 5.683h-.03l-.202.2c2.073.6 3.076 1.537 3.076 1.537-1.336-.668-2.54-1.002-3.744-1.137-.87-.135-1.74-.064-2.475 0h-.2c-.47 0-1.47.2-2.81.735-.467.203-.735.336-.735.336s1.002-1.002 3.21-1.537l-.135-.135s-1.672-.064-3.477 1.27c0 0-1.805 3.144-1.805 7.02 0 0 1 1.74 3.743 1.806 0 0 .4-.533.805-1.002-1.54-.468-2.14-1.404-2.14-1.404s.134.066.335.2h.06c.03 0 .044.015.06.03v.006c.016.016.03.03.06.03.33.136.66.27.93.4.466.202 1.065.403 1.8.536.93.135 1.996.2 3.21 0 .6-.135 1.2-.267 1.8-.535.39-.2.87-.4 1.397-.737 0 0-.6.936-2.205 1.404.33.466.795 1 .795 1 2.744-.06 3.81-1.8 3.87-1.726 0-3.87-1.815-7.02-1.815-7.02-1.635-1.214-3.165-1.26-3.435-1.26l.056-.02zm.168 4.413c.703 0 1.27.6 1.27 1.335 0 .74-.57 1.34-1.27 1.34-.7 0-1.27-.6-1.27-1.334.002-.74.573-1.338 1.27-1.338zm-4.543 0c.7 0 1.266.6 1.266 1.335 0 .74-.57 1.34-1.27 1.34-.7 0-1.27-.6-1.27-1.334 0-.74.57-1.338 1.27-1.338z"></path>
+                  </svg></a></div>
+              <div class="sc-crHmcD jDvJAM"><a href="https://www.linkedin.com/in/gaurav-singh-355174230/" target="_blank" class="sc-egiyK bVzuDM"><svg viewBox="0 0 24 24" fill="none">
+                    <title>Linkedin icon</title>
+                    <path d="M7.2 20.8h-4v-12h4v12zM5.202 7.2a2 2 0 11-.004-4 2 2 0 01.004 4zM21.6 20.8h-3.845v-5.84c0-1.393-.027-3.183-2-3.183-2.002 0-2.31 1.516-2.31 3.082V20.8H9.6V8.791h3.69v1.64h.054c.512-.944 1.768-1.939 3.64-1.939 3.896 0 4.616 2.488 4.616 5.722V20.8z"></path>
+                  </svg></a></div>
+              <div class="sc-crHmcD jDvJAM"><a href="https://www.twitter.com/GauravSingh9634" target="_blank" class="sc-egiyK bVzuDM"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>Twitter icon</title>
+                    <path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"></path>
+                  </svg></a></div>
+              <div class="sc-crHmcD jDvJAM"><a href="https://www.hackerrank.com/gauravnegi9634" target="_blank" class="sc-egiyK bVzuDM"><svg viewBox="0 0 24 24">
+                    <title>HackerRank icon</title>
+                    <path d="M12 0c1.285 0 9.75 4.886 10.392 6 .645 1.115.645 10.885 0 12S13.287 24 12 24s-9.75-4.885-10.395-6c-.641-1.115-.641-10.885 0-12C2.25 4.886 10.715 0 12 0zm2.295 6.799a.259.259 0 00-.258.258v3.875H9.963V6.908h.701a.255.255 0 00.254-.258.257.257 0 00-.123-.221L9.223 4.92a.303.303 0 00-.226-.109.265.265 0 00-.207.107L7.11 6.43a.257.257 0 00-.12.218c0 .143.113.258.255.258h.704l.008 10.035c0 .145.111.258.254.258h1.492a.258.258 0 00.259-.256v-4.004h4.073v4.152h-.699a.26.26 0 00-.137.477l1.579 1.51a.301.301 0 00.225.109.264.264 0 00.208-.109l1.679-1.51a.258.258 0 00-.135-.477h-.704l-.007-10.034a.257.257 0 00-.255-.26h-1.494v.002z"></path>
+                  </svg></a></div>
+              <div class="sc-crHmcD jDvJAM"><a href="https://leetcode.com/sacred-mercy/" target="_blank" class="sc-egiyK bVzuDM"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>LeetCode</title>
+                    <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"></path>
+                  </svg></a></div>
+              <div class="sc-crHmcD jDvJAM"><a href="https://t.me/gauravsingh963" target="_blank" class="sc-egiyK bVzuDM"><svg viewBox="0 0 24 24">
+                    <title>Telegram icon</title>
+                    <path d="M23.91 3.79L20.3 20.84c-.25 1.21-.98 1.5-2 .94l-5.5-4.07-2.66 2.57c-.3.3-.55.56-1.1.56-.72 0-.6-.27-.84-.95L6.3 13.7.85 12c-1.18-.35-1.19-1.16.26-1.75l21.26-8.2c.97-.43 1.9.24 1.53 1.73z"></path>
+                  </svg></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+</body>
+
+</html>
